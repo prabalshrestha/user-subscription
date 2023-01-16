@@ -1,5 +1,12 @@
 # user-subscription
-## Steps:
+## Setup :
+### Option 1 : Use Dockerfile
+- Build image:
+    - docker build -t [username]/[imagename] .
+- Run image:
+    - docker run -d -p 5000:5000 [username]/[imagename]:[tag] .
+
+### Option 2 : 
 - Create virtual env [Optional]: 
     - python3 -m venv env
     - source env/bin/activate
@@ -7,8 +14,6 @@
     - pip3 install -r requirements.txt
 - Run :
     - python3 app.py
-
-
 
 ## APIs
 ### Base url: http://localhost:5000
