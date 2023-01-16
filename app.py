@@ -6,4 +6,4 @@ app.register_blueprint(user_blueprint)
 app.register_blueprint(subscription_plan_blueprint)
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
