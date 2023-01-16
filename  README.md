@@ -7,12 +7,13 @@
 - Run :
     - python3 app.py
 
-## Base url: http://localhost:5000
+
 
 ## APIs
-    GET: /plans 
-    GET: /user
-    GET: /user/<user_id>
+### Base url: http://localhost:5000
+    GET:  /plans 
+    GET:  /users
+    GET:  /user/<user_id>
     POST: /user
         Requestbody:
         {
