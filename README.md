@@ -4,7 +4,7 @@
 - Build image:
     - docker build -t [username]/[imagename] .
 - Run image:
-    - docker run -d -p 5000:5000 [username]/[imagename]:[tag] .
+    - docker run -d -p 5000:5000 [username]/[imagename]
 
 ### Option 2 : 
 - Create virtual env [Optional]: 
